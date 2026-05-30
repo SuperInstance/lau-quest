@@ -1,0 +1,12 @@
+[package]
+name = "lau-quest"
+version = "0.1.0"
+edition = "2021"
+description = "Quest/mission system for the Lau (Layered Agent-UI) gamified learning platform"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
